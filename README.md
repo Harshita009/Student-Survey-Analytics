@@ -1,36 +1,34 @@
-# Student-Survey-Analytics
-
 # Project
 
-In the United States,therearemanystoresinwhichasurveywasconductedbasedonstudentsi.e.howmuchtheyarespendingondifferentkindsofpurchaseslikeVideogames,Indoorgames,Toys,Books,Gadgetsetc.Inthedataset(StudentSurvey),StoresettingisthecolumnthatexplainstheTypeoflocationinwhichthestoreispresent.Byusingadataset(StudentSurvey),trytoextractmeaningfulinsights.
+In the United States,there are many stores in which a survey was conducted based on students i.e. how much they are spending on different kinds of purchases like Videogames,Indoorgames,Toys,Books,Gadgetsetc.Inthedataset(StudentSurvey),Store setting is the column that explains the Type of location in which the store is present.By using a dataset(StudentSurvey),try to extract meaningful insights.
 IndustryType:RetailStore
 Dataset:Studentsurvey
-ProblemStatement:CreateaPowerBIReport
+Problem Statement:Create a Power BI Report
 1.
-TabularVisualization:Formatthetotalamountofpurchase(TAP)basedon‘Storelocation’and‘Storesetting’:-
+Tabular Visualization:Format the total amount of purchase(TAP)basedon‘Store location’and‘Store setting’:-
 ●
-If0<TAP<35000,thenrecordsshouldbeinredcolor
+If 0<TAP<35000,then records should be in red color
 ●
-If35000<=TAP<60000,thenrecordsshouldbeinyellowcolor
+If 35000<=TAP<60000,then  records should be in yellow color
 ●
-IfTAP>=60000,thenrecordsshouldbeinBluecolor
+If TAP>=60000,then records should be in Bluecolor
 2.
-MatrixVisualization:CreateMatrixVisualizationtoshowtheamountspentonOutdoorsportsacrossdifferentagesand‘Storesetting’.Dothecolorformattingfortheamountspentintotaloutdoorsports.
+Matrix Visualization:Create Matrix Visualization to show the amount spent on Outdoor sports across different ages and‘Storesetting’.Do the color formatting for the amount spent in total outdoor sports.
 3.
-FunnelChart:CreateaFunnelcharttoshowTotalamountofpurchaseby‘Storesetting’.ShowthedatalabelsasPercentageofFirst.
+Funnel Chart:Create a Funnel chart to show Total amount of purchase by‘Storesetting’.Show the data labels as Percentage of First.
 4.
-PieChart:Showthetotalamountofpurchasebydifferent‘Storelocation’forSuburban‘Storesetting’only.
-Hint:UseFiltercontext
+Pie Chart:Show the total amount of purchase by different‘Store location’for Suburban‘Store setting’ only.
+Hint:Use Filter context
 5.
-a)Scatterplot-VideogamespurchaseandOutdoorsportsspentacrossthedifferentages.
-b)Sanddanceplot-IndoorsportsandVideogamesspentacrossthe differentagegroups.
-6.RestrictdataaccessforthegivenusersintheUsermappingtable.Forexample,ManidealswithRuralareasonlysosheshouldbeabletoviewthedatawhichbelongstoRuralonly,noturbanandsuburbandata.
+a)Scatter plot-Video games purchase and Outdoor sports spent across the different ages.
+b)Sand dance plot-Indoor sports and Video games spent across the different age groups.
+6.Restrict data access for the given users in the User mapping table.For example,Mani deals with Rural areas only so she should be able to view the data which belongs to Rural only,not urban and suburban data.
 
 7.
-PublishthereportonPowerBIcloudserviceandDesigntheMasterDashboardconsistingofFunnelchartandscatterplots.Thencreateaschedulerefreshforsixtimesinevery4hoursfortheDashboardinaday.
+Publish there port on Power BIcloud service and Design the Master Dashboard consisting of Funnel chart and scatter plots.Then create a schedulere fresh for six times in every 4hours for the Dashboard in a day.
 8.
-UseQ&AfeatureofPowerBI,
+Use Q&A feature of PowerBI,
 a)
-Toshowaverageageofstudents
+To show average age of students
 b)
-Donutchartfortotalamountofpurchasesby‘Storelocation’
+Donut chart for total amount of purchases by ‘Storelocation’
